@@ -149,8 +149,7 @@
             <div class="about-room">
                 <div class="row">
                     <div class="col-lg-10 offset-lg-1">
-                        <h2>“Comfort, convenience, and a home-like atmosphere, 
-                            making it the perfect spot before your next adventure”.</h2>
+                        <h2>“Customers may forget what you said  but they will never forget how you made themfeel”.</h2>
                     </div>
                 </div>
                 <div class="about-para">
@@ -160,10 +159,11 @@
                         </div>
                         <div class="col-lg-6 fade-left">
 							<div class="mobile-hidden" style="border-radius: 20px">
-								<p>“Just minutes from Jakarta’s Soekarno-Hatta Airport, Conjioo Hotel offers the perfect blend of comfort and convenience for every traveler. Whether you're here for a quick stopover or a relaxing staycation, our cozy rooms and warm hospitality will make you feel right at home.
-                                    <br>
-                                    <br>
-                                    Unwind, recharge, and enjoy the comfort of home before continuing your next adventure at Conjioo Hotel – the ideal place for your journey.“</p>
+								<p>“CONJIOO Hotel located just 5 minutes away from Soekarno Hatta International Airport.
+									The minimalism approach of our building focuses on subtle but impactful details; 
+								   it focuses on intentionality. We aim to accommodate your stay with the best 
+								   experience possible. From flight transits to long stays, we are your home 
+								   away from home.“</p>
 							</div>
                             
                         </div>
@@ -194,7 +194,7 @@
                                 <p><strong>Room Size 19 m²</strong><br>
 
                                     This twin/double room has a balcony, tea/coffee maker and electric kettle.</p>
-                                <a href="{{ route('user.deluxe') }}" class="primary-btn fac-btn">Visit Room <i class="lnr lnr-arrow-right"></i></a>
+                                <a href="./deluxe.html" class="primary-btn fac-btn">Visit Room <i class="lnr lnr-arrow-right"></i></a>
                             </div>
                         </div>
                     </div>
@@ -205,7 +205,7 @@
                                 <p><strong>Room Size 22 m²</strong><br>
 
                                     This double room has a balcony, tea/coffee maker and electric kettle.</p>
-                                <a href="{{ route('user.premiere') }}" class="primary-btn fac-btn">Visit Room <i class="lnr lnr-arrow-right"></i></a>
+                                <a href="./premiere.html" class="primary-btn fac-btn">Visit Room <i class="lnr lnr-arrow-right"></i></a>
                             </div>
                         </div>
                     </div>
@@ -225,7 +225,7 @@
                                 <p><strong>Area 16 m²</strong><br>
 
                                     A minimalistic approach to for your comfortable stay, our superior room is perfect for a short stopover or even long stay.</p>
-                                <a href="{{ route('user.superior') }}" class="primary-btn fac-btn">Visit Room <i class="lnr lnr-arrow-right"></i></a>
+                                <a href="./superior.html" class="primary-btn fac-btn">Visit Room <i class="lnr lnr-arrow-right"></i></a>
                             </div>
                         </div>
                     </div>

@@ -18,6 +18,14 @@ class HomeController extends Controller
     /**
      * Display the about us page.
      */
+    public function conjiooJakarta()
+    {
+        return view('user.index-jakarta');
+    }
+
+    /**
+     * Display the about us page.
+     */
     public function aboutUs()
     {
         return view('user.about-us');

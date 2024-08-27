@@ -19,6 +19,7 @@ use App\Http\Controllers\User\HomeController;
 // });
 
 Route::get('/', [HomeController::class, 'index'])->name('user.index');
+Route::get('/user/index-jakarta', [HomeController::class, 'conjiooJakarta'])->name('user.index-jakarta');
 Route::get('/user/about-us', [HomeController::class, 'aboutUs'])->name('user.about-us');
 Route::get('/user/contact', [HomeController::class, 'contact'])->name('user.contact');
 Route::get('/user/deluxe', [HomeController::class, 'deluxe'])->name('user.deluxe');

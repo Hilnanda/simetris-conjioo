@@ -7,7 +7,7 @@
 
 
     <!-- Hero Slider Begin -->
-    <section class="hero-section set-bg" data-setbg="img/detail-superior.jpg">
+    <section class="hero-section set-bg" data-setbg="{{ asset('img/detail-superior.jpg') }}">
         <div class="hero-text">
             <div class="container">
                 <div class="row">
@@ -32,7 +32,7 @@
             <div class="facilities-content">
                 <div class="row">
                     <div class="col-lg-6 p-0">
-                        <div class="facilities-img set-bg" data-setbg="img/room/superior.png"></div>
+                        <div class="facilities-img set-bg" data-setbg="{{ asset('img/room/superior.png') }}"></div>
                     </div>
                     <div class="col-lg-6 p-0">
                         <div class="facilities-text-warp">
@@ -104,7 +104,7 @@
                         </div>
                     </div>
                     <div class="col-lg-6 p-0 order-lg-2 order-1 fade-bottom">
-                        <div class="facilities-img set-bg" data-setbg="img/room/superior2.png"></div>
+                        <div class="facilities-img set-bg" data-setbg="{{ asset('img/room/superior2.png') }}"></div>
                     </div>
                     
                 </div>

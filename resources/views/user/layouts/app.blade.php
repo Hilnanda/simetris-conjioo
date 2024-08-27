@@ -15,6 +15,10 @@
         rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800&display=swap" rel="stylesheet">
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
     <!-- Css Styles -->
     <link rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}" type="text/css">
     <link rel="stylesheet" href="{{ asset('css/font-awesome.min.css') }}" type="text/css">
@@ -64,6 +68,21 @@
             z-index: 1;
             /* Pastikan konten tetap di depan video */
         }
+        .hidden-form {
+            
+            opacity: 0;
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease, opacity 0.3s ease;
+        }
+
+        .visible-form {
+            
+            margin-top: 20px;
+            opacity: 1;
+            max-height: 1000px; /* Sesuaikan dengan nilai maksimum yang sesuai */
+        }
+        
     </style>
 </head>
 
@@ -77,9 +96,7 @@
     <header class="header-section">
         <div class="container-fluid">
             <div class="inner-header">
-                <div class="logo">
-                    <a href="./index.html"><img src="{{ asset('img/logo.png') }}" alt=""></a>
-                </div>
+                
                 @include('user.includes.navbar')
                 <div id="mobile-menu-wrap"></div>
             </div>
@@ -105,6 +122,39 @@
 <script src="{{ asset('js/jquery.slicknav.js') }}"></script>
 <script src="{{ asset('js/owl.carousel.min.js') }}"></script>
 <script src="{{ asset('js/main.js') }}"></script>
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+    var bookNowBtn = document.getElementById('book-now-btn');
+    var bookingForm = document.getElementById('booking-form');
+    
+    if (bookNowBtn && bookingForm) {
+        bookNowBtn.addEventListener('click', function(event) {
+            event.preventDefault(); 
+            bookingForm.classList.toggle('visible-form');
+        });
+    }
+});
+
+document.addEventListener('DOMContentLoaded', function() {
+            var roomGuestDropdown = document.getElementById('room-guest-dropdown');
+            var numRoomsInput = document.getElementById('num-rooms');
+            var numAdultsInput = document.getElementById('num-adults');
+            var numChildrenInput = document.getElementById('num-children');
+            var applyChangesBtn = document.getElementById('apply-changes-btn');
+
+            if (roomGuestDropdown && numRoomsInput && numAdultsInput && numChildrenInput && applyChangesBtn) {
+                applyChangesBtn.addEventListener('click', function(event) {
+                    event.preventDefault();
+                    var rooms = numRoomsInput.value;
+                    var adults = numAdultsInput.value;
+                    var children = numChildrenInput.value;
+                    roomGuestDropdown.textContent = rooms + ' Rooms, ' + adults + ' Adult, ' + children + ' Child';
+                    // Tutup dropdown setelah mengklik "Apply Changes"
+                    roomGuestDropdown.classList.remove('show');
+                });
+            }
+        });
+</script>
 </body>
 <!-- END BODY -->
 
