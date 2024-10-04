@@ -35,7 +35,7 @@
                                     </div>
                                 </a>
                                 <a href="#" class="single-slider-nav">
-                                    <img src="img/kuta.png" alt="">
+                                    <img src="img/kuta.png" alt="" style="width:168px">
                                     <div class="nav-text" style="text-align: center;">
                                         <p style="font-size: 15px;">Conjioo Hotel <br>Kuta</p>
                                     </div>
