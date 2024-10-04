@@ -53,7 +53,7 @@
     <div class="copyright-area">
         <div class="container">
             <div class="copyright-text" ><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                Copyright &copy;<script>document.write(new Date().getFullYear());</script> Conjioo Hotels | Managed By <img src="{{ asset('img/logo_mh.png') }}" style="width: 30px;" alt=""> Manna Hospitality Management 
+                Copyright &copy;<script>document.write(new Date().getFullYear());</script> Conjioo Hotels | Managed By <img src="{{ asset('img/logo_mh.png') }}" style="width: 30px;" alt=""> Manna Hospitality Management <br> Develop By Simetris Software 
 <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></div>
             <!-- <div class="privacy-links">
                 <a href="#">Privacy Policy</a>

@@ -16,7 +16,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-12">
-                            <h1 >Conjioo Hotel <br>at Jakarta Airport</h1><br>
+                            <h1 >Conjioo Hotel <br>at Legian Kuta</h1><br>
                         </div>
                     </div>
                     <div class="row">

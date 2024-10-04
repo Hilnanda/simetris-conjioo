@@ -16,7 +16,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-12">
-                            <h1 >Conjioo Hotel <br>at Jakarta Airport</h1><br>
+                            <h1 >Conjioo Hotel <br>at Kuta Bali</h1><br>
                         </div>
                     </div>
                     <div class="row">
@@ -159,11 +159,7 @@
                         </div>
                         <div class="col-lg-6 fade-left">
 							<div class="mobile-hidden" style="border-radius: 20px">
-								<p>“CONJIOO Hotel located just 5 minutes away from Soekarno Hatta International Airport.
-									The minimalism approach of our building focuses on subtle but impactful details; 
-								   it focuses on intentionality. We aim to accommodate your stay with the best 
-								   experience possible. From flight transits to long stays, we are your home 
-								   away from home.“</p>
+								<p>“Just a 3-minute walk from Krisna Bali, Conjioo Hotel Bali blends ethereal serenity with modern comfort. Our clean, minimalist rooms are perfect for families and holidaymakers, featuring a refreshing swimming pool and a high-tech meeting room. Enjoy whispers of traditional charm in a serene setting, where every detail is designed to enhance your stay.“</p>
 							</div>
                             
                         </div>
