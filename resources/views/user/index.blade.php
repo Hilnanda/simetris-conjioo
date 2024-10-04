@@ -16,7 +16,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-12">
-                            <h1 >Conjioo Hotel <br>at Jakarta Airport</h1><br>
+                            <h1 >Conjioo Hotel <br>at Sumbawa</h1><br>
                         </div>
                     </div>
                     <div class="row">
@@ -160,7 +160,7 @@
                         </div>
                         <div class="col-lg-6 fade-left">
 							<div class="mobile-hidden" style="border-radius: 20px">
-								<p>“Just minutes from Jakarta’s Soekarno-Hatta Airport, Conjioo Hotel offers the perfect blend of comfort and convenience for every traveler. Whether you're here for a quick stopover or a relaxing staycation, our cozy rooms and warm hospitality will make you feel right at home.
+								<p>“Located on Main Street Maluk, Conjioo Hotel Sumbawa offers a blend of comfort and modern design, perfect for long stays or staycations. Enjoy our clean, minimalist rooms and take advantage of our high-tech meeting room for your business needs. Experience a refreshing, home-like atmosphere and the warmth of local hospitality in this hidden paradise.
                                     <br>
                                     <br>
                                     Unwind, recharge, and enjoy the comfort of home before continuing your next adventure at Conjioo Hotel – the ideal place for your journey.“</p>
