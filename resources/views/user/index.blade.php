@@ -160,7 +160,7 @@
                         </div>
                         <div class="col-lg-6 fade-left">
 							<div class="mobile-hidden" style="border-radius: 20px">
-								<p>“Just minutes from Jakarta’s Soekarno-Hatta Airport, Conjioo Hotel offers the perfect blend of comfort and convenience for every traveler. Whether you're here for a quick stopover or a relaxing staycation, our cozy rooms and warm hospitality will make you feel right at home.
+								<p>“Just a 3-minute walk from Krisna Bali, Conjioo Hotel Bali blends ethereal serenity with modern comfort. Our clean, minimalist rooms are perfect for families and holidaymakers, featuring a refreshing swimming pool and a high-tech meeting room. Enjoy whispers of traditional charm in a serene setting, where every detail is designed to enhance your stay.
                                     <br>
                                     <br>
                                     Unwind, recharge, and enjoy the comfort of home before continuing your next adventure at Conjioo Hotel – the ideal place for your journey.“</p>
